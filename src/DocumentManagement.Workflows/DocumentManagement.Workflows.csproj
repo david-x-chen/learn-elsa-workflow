@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DocumentManagement.Core\DocumentManagement.Core.csproj" />
+    <ProjectReference Include="..\DocumentManagement.Persistence\DocumentManagement.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotLiquid" Version="2.0.385" />
+    <PackageReference Include="Elsa" Version="2.10.2.2" />
+    <PackageReference Include="Elsa.Activities.Email" Version="2.10.2.2" />
+    <PackageReference Include="Elsa.Activities.Http" Version="2.10.2.2" />
+    <PackageReference Include="Elsa.Core" Version="2.10.2.2" />
+    <PackageReference Include="Elsa.Persistence.EntityFramework.Core" Version="2.10.2.2" />
+    <PackageReference Include="Elsa.Server.Hangfire" Version="2.10.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Storage.Net" Version="9.3.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="Workflows\hello-world.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

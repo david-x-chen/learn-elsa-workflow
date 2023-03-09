@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{146BC953-6F9D-46E1-8781-8D8C7A5128E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.Web", "src\DocumentManagement.Web\DocumentManagement.Web.csproj", "{B1EE9698-5836-4975-8D7B-5F3F128D56C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.Core", "src\DocumentManagement.Core\DocumentManagement.Core.csproj", "{A6C07EC4-C822-4EF5-B376-6C407F571F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.Persistence", "src\DocumentManagement.Persistence\DocumentManagement.Persistence.csproj", "{71042F84-3436-4866-BF25-90DB9927B5A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.Workflows", "src\DocumentManagement.Workflows\DocumentManagement.Workflows.csproj", "{F9C6FAD3-6FC4-431B-838A-8249280C18E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{1E623926-42DE-4CB1-9A77-D753A34389FF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.ElsaDashboard", "src\DocumentManagement.ElsaDashboard\DocumentManagement.ElsaDashboard.csproj", "{E065A947-8F00-42E1-9469-8A7F03ECC40F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1EE9698-5836-4975-8D7B-5F3F128D56C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EE9698-5836-4975-8D7B-5F3F128D56C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EE9698-5836-4975-8D7B-5F3F128D56C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EE9698-5836-4975-8D7B-5F3F128D56C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C07EC4-C822-4EF5-B376-6C407F571F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C07EC4-C822-4EF5-B376-6C407F571F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C07EC4-C822-4EF5-B376-6C407F571F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C07EC4-C822-4EF5-B376-6C407F571F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71042F84-3436-4866-BF25-90DB9927B5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71042F84-3436-4866-BF25-90DB9927B5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71042F84-3436-4866-BF25-90DB9927B5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71042F84-3436-4866-BF25-90DB9927B5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C6FAD3-6FC4-431B-838A-8249280C18E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C6FAD3-6FC4-431B-838A-8249280C18E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C6FAD3-6FC4-431B-838A-8249280C18E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C6FAD3-6FC4-431B-838A-8249280C18E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E065A947-8F00-42E1-9469-8A7F03ECC40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E065A947-8F00-42E1-9469-8A7F03ECC40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E065A947-8F00-42E1-9469-8A7F03ECC40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E065A947-8F00-42E1-9469-8A7F03ECC40F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1EE9698-5836-4975-8D7B-5F3F128D56C8} = {146BC953-6F9D-46E1-8781-8D8C7A5128E4}
+		{A6C07EC4-C822-4EF5-B376-6C407F571F6C} = {146BC953-6F9D-46E1-8781-8D8C7A5128E4}
+		{71042F84-3436-4866-BF25-90DB9927B5A2} = {146BC953-6F9D-46E1-8781-8D8C7A5128E4}
+		{F9C6FAD3-6FC4-431B-838A-8249280C18E8} = {146BC953-6F9D-46E1-8781-8D8C7A5128E4}
+		{E065A947-8F00-42E1-9469-8A7F03ECC40F} = {146BC953-6F9D-46E1-8781-8D8C7A5128E4}
+	EndGlobalSection
+EndGlobal
